@@ -22,7 +22,7 @@ The simplest way to run the sample is from the project root folder using maven. 
 By default, application runs at port 8080. If you want it to run in different port, just update the application.properties file as
 server.port=<your-port>
 use postman to check the result as http://localhost:8080/weatherservice/find-weather
-#request body, try with your zip code
+## request body, try with your zip code
 {
 	"zipCode":"22102"	
 }
